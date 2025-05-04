@@ -1,0 +1,182 @@
+.dashboard-root {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f6fa;
+}
+
+.dashboard-sidebar {
+  width: 210px;
+  background: #232946;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0 2rem 0;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.04);
+}
+
+.dashboard-sidebar .sidebar-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.dashboard-sidebar .sidebar-link {
+  padding: 0.9rem 2rem;
+  font-size: 1.08rem;
+  color: #fff;
+  text-decoration: none;
+  border-left: 4px solid transparent;
+  transition: background 0.2s, border-color 0.2s;
+  cursor: pointer;
+}
+.dashboard-sidebar .sidebar-link.active,
+.dashboard-sidebar .sidebar-link:hover {
+  background: #313866;
+  border-left: 4px solid #3ecf8e;
+}
+
+.dashboard-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-navbar {
+  height: 60px;
+  background: #232946;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.dashboard-navbar .navbar-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.dashboard-navbar .navbar-actions button {
+  background: #3ecf8e;
+  color: #232946;
+  border: none;
+  border-radius: 16px;
+  padding: 0.4rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: background 0.2s;
+}
+.dashboard-navbar .navbar-actions button:hover {
+  background: #2fa36c;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  background: #f5f6fa;
+}
+
+.dashboard-section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard-table-wrapper {
+  overflow-x: auto;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: 1rem;
+}
+.dashboard-table th, .dashboard-table td {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0.7rem 0.8rem;
+  text-align: left;
+}
+.dashboard-table th {
+  background: #f5f6fa;
+  font-weight: 600;
+}
+.dashboard-table tr:hover {
+  background: #f0f4ff;
+}
+
+@media (max-width: 900px) {
+  .dashboard-root {
+    flex-direction: column;
+  }
+  .dashboard-sidebar {
+    width: 100%;
+    flex-direction: row;
+    padding: 0;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+  .dashboard-main {
+    padding: 0;
+  }
+  .dashboard-content {
+    padding: 1rem;
+  }
+}
+
+.dashboard {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard h1 {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.dashboard-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+  margin-bottom: 2rem;
+}
+
+.user-info h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.user-info p {
+  color: #34495e;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+} 

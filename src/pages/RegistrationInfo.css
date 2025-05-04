@@ -1,0 +1,186 @@
+.reg-info-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  max-width: 820px;
+  margin: 2rem auto;
+  padding: 2.5rem 2.5rem 1.5rem 2.5rem;
+  font-family: 'Noto Sans TC', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.moving-watermark {
+  position: absolute;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.reg-info-content {
+  position: relative;
+  z-index: 1;
+}
+
+.reg-info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.reg-info-title {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.reg-info-logo {
+  width: 70px;
+  height: 70px;
+  background: url('https://i.imgur.com/0y8Ftya.png') no-repeat center/contain;
+}
+
+.reg-info-title > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.reg-info-title > div > div:first-child {
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.reg-info-title > div > div:last-child {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #222;
+}
+
+.reg-info-actions {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.reg-info-actions button {
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.reg-info-actions button:first-child {
+  background: #2176ff;
+}
+
+.reg-info-actions button:last-child {
+  background: #3ecf8e;
+}
+
+.reg-info-actions button:hover {
+  opacity: 0.85;
+}
+
+.reg-info-main {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.reg-info-qrcode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.reg-info-time {
+  font-size: 1.08rem;
+  color: #222;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.reg-info-detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 1.13rem;
+  color: #222;
+  position: relative;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  justify-content: center;
+}
+
+.reg-info-detail .important {
+  color: #2176ff;
+  font-weight: 700;
+  font-size: 1.18rem;
+}
+
+.reg-info-detail .stamp {
+  position: absolute;
+  right: 1.2rem;
+  top: 0.5rem;
+  width: 120px;
+  height: 120px;
+  opacity: 0.22;
+  background: url('https://i.imgur.com/1Q8Qw1v.png') no-repeat center/contain;
+  pointer-events: none;
+}
+
+.reg-info-notice {
+  background: #f5f6fa;
+  border-radius: 12px;
+  padding: 1.1rem 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.reg-info-notice-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 1.08rem;
+}
+
+.reg-info-notice-content {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-left: 1.2rem;
+}
+
+.reg-info-notice-content ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.reg-info-notice-content li {
+  margin-bottom: 0.5rem;
+  font-size: 0.98rem;
+}
+
+@media (max-width: 900px) {
+  .reg-info-container {
+    padding: 1rem;
+  }
+  .reg-info-main {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .reg-info-detail {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+  .reg-info-detail .stamp {
+    right: 0.2rem;
+    top: 0.2rem;
+    width: 80px;
+    height: 80px;
+  }
+} 
