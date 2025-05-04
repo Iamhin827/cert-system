@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cert-system/static/css/main.9c8fc6d7.css",
+    "main.js": "/cert-system/static/js/main.02da231a.js",
+    "static/js/975.ebcf4ae6.chunk.js": "/cert-system/static/js/975.ebcf4ae6.chunk.js",
+    "static/js/207.08829776.chunk.js": "/cert-system/static/js/207.08829776.chunk.js",
+    "static/js/61.efea98e8.chunk.js": "/cert-system/static/js/61.efea98e8.chunk.js",
+    "static/js/453.8ab44547.chunk.js": "/cert-system/static/js/453.8ab44547.chunk.js",
+    "static/js/238.b7daaf69.chunk.js": "/cert-system/static/js/238.b7daaf69.chunk.js",
+    "index.html": "/cert-system/index.html",
+    "main.9c8fc6d7.css.map": "/cert-system/static/css/main.9c8fc6d7.css.map",
+    "main.02da231a.js.map": "/cert-system/static/js/main.02da231a.js.map",
+    "975.ebcf4ae6.chunk.js.map": "/cert-system/static/js/975.ebcf4ae6.chunk.js.map",
+    "207.08829776.chunk.js.map": "/cert-system/static/js/207.08829776.chunk.js.map",
+    "61.efea98e8.chunk.js.map": "/cert-system/static/js/61.efea98e8.chunk.js.map",
+    "453.8ab44547.chunk.js.map": "/cert-system/static/js/453.8ab44547.chunk.js.map",
+    "238.b7daaf69.chunk.js.map": "/cert-system/static/js/238.b7daaf69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c8fc6d7.css",
+    "static/js/main.02da231a.js"
+  ]
+}
